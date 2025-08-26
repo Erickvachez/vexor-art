@@ -1,0 +1,137 @@
+/* Custom styles for a modern, fluid resin art feel */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    background-color: #F5F5F5;
+    line-height: 1.6;
+}
+
+/* Animated Header Gradients */
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 100% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    75% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-gradient {
+    background-size: 300% 300%;
+    animation: gradientShift 8s ease-in-out infinite;
+}
+
+/* Custom gradient colors for header animation */
+.gradient-blue-cyan-green {
+    background: linear-gradient(90deg, #93c5fd, #67e8f9, #86efac);
+}
+
+.gradient-purple-pink-red {
+    background: linear-gradient(90deg, #c084fc, #f9a8d4, #fca5a5);
+}
+
+.gradient-green-teal-blue {
+    background: linear-gradient(90deg, #4ade80, #5eead4, #60a5fa);
+}
+
+.gradient-yellow-orange-red {
+    background: linear-gradient(90deg, #facc15, #fdba74, #f87171);
+}
+
+.gradient-indigo-purple-pink {
+    background: linear-gradient(90deg, #818cf8, #c084fc, #f9a8d4);
+}
+
+.gradient-emerald-cyan-blue {
+    background: linear-gradient(90deg, #34d399, #67e8f9, #3b82f6);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+html {
+    scroll-behavior: smooth;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.whatsapp-float:hover {
+    transform: scale(1.05);
+}
+.whatsapp-float i {
+    font-size: 28px;
+}
+.hero-section {
+    background: linear-gradient(135deg, #0D47A1 0%, #00796B 100%);
+    color: white;
+    padding: 8rem 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.portfolio-item img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.portfolio-item img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+/* Mobile menu overlay styles */
+.mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.95);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.mobile-menu-overlay.open {
+    transform: translateX(0);
+}
+.close-menu-btn {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    font-size: 2.5rem;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.mobile-nav-link {
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.mobile-nav-link:hover {
+    color: #B8860B;
+}
