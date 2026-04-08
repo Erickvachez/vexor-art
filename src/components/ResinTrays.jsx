@@ -12,20 +12,20 @@ const ResinTrays = () => {
   const stockItems = [
     {
       id: 1,
-      name: 'Ocean Serve Tray',
-      description: 'Sea-blue resin waves with white foam details, perfect for serving drinks.',
+      name: 'Cards & Dice Serving Tray',
+      description: 'Dark resin tray with swirling purple and copper tones, embedded playing cards and dice, finished with gold cylindrical handles.',
       image: '/assets/gallery/trays/catalog/1.jpg'
     },
     {
       id: 2,
-      name: 'Gold Vein Vanity Tray',
-      description: 'Neutral base with gold veining, ideal for perfumes, candles or accessories.',
+      name: 'Tarot Lovers Tray',
+      description: 'Oval black resin tray with red and pink glitter accents and an embedded "The Lovers" tarot card centerpiece.',
       image: '/assets/gallery/trays/catalog/2.jpg'
     },
     {
       id: 3,
-      name: 'Midnight Marble Tray',
-      description: 'Dark marbled resin with a high-gloss finish for bold tabletops.',
+      name: 'Jordan Desk Organizer Set',
+      description: 'Black and blue resin desk set featuring Jumpman silhouettes with silver glitter accents, includes a pen holder and phone stand.',
       image: '/assets/gallery/trays/catalog/3.jpg'
     }
   ]

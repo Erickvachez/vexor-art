@@ -12,20 +12,20 @@ const ResinCoffeeTables = () => {
   const stockItems = [
     {
       id: 1,
-      name: 'Galaxy Herb Grinder',
-      description: 'Multi-tone resin body with deep blues and purples swirling around metallic flecks.',
+      name: 'Blue Duo Herb Grinder',
+      description: 'A pair of translucent and solid blue resin grinders with colorful embedded flecks, smooth finish and sharp teeth.',
       image: '/assets/gallery/herb-grinders/catalog/1.jpg'
     },
     {
       id: 2,
-      name: 'Sunset Herb Grinder',
-      description: 'Vibrant orange, gold and soft pink blends that catch the light from every angle.',
+      name: 'Custom Portrait Grinder',
+      description: 'Turquoise resin grinder with an embedded custom portrait sticker, a one-of-a-kind personalized piece.',
       image: '/assets/gallery/herb-grinders/catalog/2.jpg'
     },
     {
       id: 3,
-      name: 'Smoke Herb Grinder',
-      description: 'Subtle charcoal and pearl white patterns for a clean, minimal aesthetic.',
+      name: 'Gold Glitter Custom Grinder',
+      description: 'Gold glitter resin grinder with embedded custom graphics and QR code, a bold statement piece that shines.',
       image: '/assets/gallery/herb-grinders/catalog/3.jpg'
     }
   ]

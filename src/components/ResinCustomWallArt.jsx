@@ -12,20 +12,20 @@ const ResinCustomWallArt = () => {
   const stockItems = [
     {
       id: 1,
-      name: 'Ocean Geode',
-      description: 'Layered blues, whites and metallic lines to mimic geode crystal structures.',
+      name: 'Desert Jeep Multi-Panel',
+      description: 'A five-piece split-panel wall art featuring an orange Jeep in a desert canyon landscape, printed on canvas with a high-gloss finish.',
       image: '/assets/gallery/custom-wall-art/catalog/1.jpg'
     },
     {
       id: 2,
-      name: 'Solar Flare',
-      description: 'Warm yellows, orange and deep reds with high-gloss and texture details.',
+      name: 'Dark Fantasy Canvas',
+      description: 'Moody single-panel canvas art with a dark fantasy scene of towering mushrooms, silhouettes and atmospheric lighting.',
       image: '/assets/gallery/custom-wall-art/catalog/2.jpg'
     },
     {
       id: 3,
-      name: 'Monochrome Flow',
-      description: 'Black, white and grey resin swirls for minimal, modern spaces.',
+      name: 'Vibrant Sci-Fi Multi-Panel',
+      description: 'A five-piece split-panel canvas bursting with vivid blues, purples and pinks in an animated sci-fi fantasy landscape.',
       image: '/assets/gallery/custom-wall-art/catalog/3.jpg'
     }
   ]

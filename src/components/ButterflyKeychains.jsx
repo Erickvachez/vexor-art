@@ -12,20 +12,20 @@ const ButterflyKeychains = () => {
   const stockItems = [
     {
       id: 1,
-      name: 'Pastel Letters',
-      description: 'Soft pinks, blues and lilac resin letters with delicate glitter accents.',
+      name: 'Glitter Initial Keychain',
+      description: 'Dark resin letter keychain packed with colorful glitter and a gold keyring, shown here as a sparkling "S".',
       image: '/assets/gallery/letter-keychains/catalog/1.jpg'
     },
     {
       id: 2,
-      name: 'Galaxy Letters',
-      description: 'Deep purple and navy letter sets with tiny star-like metallic specks.',
+      name: 'Crescent Moon Keychain',
+      description: 'Purple and blue crescent moon resin keychain with embedded flower and star details on a gold ring.',
       image: '/assets/gallery/letter-keychains/catalog/2.jpg'
     },
     {
       id: 3,
-      name: 'Neon Initials',
-      description: 'Bright, bold letter keychains that pop on any bag or keys @ksh 150 each.',
+      name: 'Holographic Letter Keychain',
+      description: 'Clear resin "K" letter keychain filled with holographic glitter that shimmers in the light, on a gold chain and ring.',
       image: '/assets/gallery/letter-keychains/catalog/3.jpg'
     }
   ]

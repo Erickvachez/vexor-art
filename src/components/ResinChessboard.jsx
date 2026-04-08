@@ -12,20 +12,20 @@ const ResinChessboard = () => {
   const stockItems = [
     {
       id: 1,
-      name: 'Midnight Marble Chessboard',
-      description: 'Deep black and pearl white swirls with a high-gloss finish, ideal for a modern living room centerpiece.',
+      name: 'Turquoise & Wood Chessboard',
+      description: 'Teal resin border with warm wood squares and hand-crafted blue resin chess pieces, a vibrant centerpiece for any room.',
       image: '/assets/gallery/chessboards/catalog/1.jpg'
     },
     {
       id: 2,
-      name: 'Ocean Drift Chessboard',
-      description: 'Ocean-inspired blues and foamy whites with subtle metallic accents for a coastal aesthetic.',
+      name: 'Teal Contrast Chessboard',
+      description: 'Bold orange-brown wood and dark teal alternating squares framed by a light blue resin border for a striking contrast.',
       image: '/assets/gallery/chessboards/catalog/2.jpg'
     },
     {
       id: 3,
-      name: 'Emerald Eclipse Chessboard',
-      description: 'Rich emerald tones blended with charcoal and gold flakes, perfect for bold interiors.',
+      name: 'Amber Glow Chessboard',
+      description: 'Warm amber and golden-toned wood squares with a blue-grey resin border, catching the light beautifully.',
       image: '/assets/gallery/chessboards/catalog/3.jpg'
     }
   ]
