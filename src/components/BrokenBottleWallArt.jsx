@@ -12,20 +12,20 @@ const BrokenBottleWallArt = () => {
   const stockItems = [
     {
       id: 1,
-      name: 'Emerald Shards',
-      description: 'We use recycled glass bottles to create these artworks.',
+      name: 'Heineken Green Frame',
+      description: 'Green Heineken bottles embedded in a white resin frame with scattered glass shards, capturing the iconic label in resin forever.',
       image: '/assets/gallery/broken-bottle-wall-art/catalog/1.jpg'
     },
     {
       id: 2,
-      name: 'Amber Echo',
-      description: 'using Epoxy resin, we highlight the beauty of the drink, forever cherishing the memories.',
+      name: 'Heineken Triple Display',
+      description: 'Three Heineken bottles arranged in a white resin frame with dark resin and green glass fragments surrounding them.',
       image: '/assets/gallery/broken-bottle-wall-art/catalog/2.jpg'
     },
     {
       id: 3,
-      name: 'City Lights',
-      description: 'though currently limited to order only, we open to customs designs for as low as 2k.',
+      name: 'Jameson Whiskey Wall Piece',
+      description: 'A Jameson Irish Whiskey bottle preserved in clear resin with green glass shards, ready to hang as a unique wall piece.',
       image: '/assets/gallery/broken-bottle-wall-art/catalog/3.jpg'
     }
   ]
